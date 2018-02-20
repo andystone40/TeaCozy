@@ -1,0 +1,71 @@
+/* Universal Styles */
+
+html {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+/* Margin/Padding Reset */
+html,body,blockquote,code,h1,h2,h3,h4,h5,h6,p,pre {
+  margin:0;padding:0
+}
+
+/* Header */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  z-index: 20;
+}
+
+header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+header a {
+  color: seashell;
+  padding: 0 10px;
+}
+
+/* Main Content */
+
+.mainContent {
+  padding-top: 69px;
+  width: 1200px;
+  justify-content: center;
+  margin: auto;
+}
+
+/* Mission */
+
+.mission {
+  background-image: url(./images/background.jpg);
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.mission .textContent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  flex-direction: column;
+  width: 100%;
+}
+
+.mission h2, .mission h4 {
+  padding: 10px;
+}
