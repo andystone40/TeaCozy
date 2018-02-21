@@ -20,10 +20,6 @@ html {
   width: 100%;
 }
 
-body {
-  height: 3000px;
-}
-
 /* Margin/Padding Reset */
 html,body,blockquote,code,h1,h2,h3,h4,h5,h6,p,pre {
   margin:0;padding:0
@@ -142,4 +138,37 @@ header a {
 
 #locations p {
   padding: 22px 0px;
+}
+
+/* Contacts */
+
+#contact {
+  height: 200px;
+  display: flex;
+  flex-flow: wrap;
+  text-align: center;
+  align-items: flex-start;
+  align-content: flex-start;
+}
+
+#contact h2, #contact h5 {
+  width: 100%;
+}
+
+#contact h2 {
+  padding: 10px 0px;
+}
+
+.second {
+  margin: 30.494px;
+}
+
+.third {
+  margin-bottom: 30.494px;
+}
+
+/* Footer */
+
+footer {
+  margin: 30.494px 20px;
 }
