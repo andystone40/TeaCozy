@@ -1,11 +1,28 @@
 /* Universal Styles */
 
 html {
-  font-family: helvetica;
+  font-family: Helvetica;
   font-size: 22px;
   color: seashell;
   background-color: black;
   opacity: 0.9;
+}
+
+.titles h2, .titles h4 {
+  padding: 10px;
+}
+
+.titles {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  flex-direction: column;
+  width: 100%;
+}
+
+body {
+  height: 3000px;
 }
 
 /* Margin/Padding Reset */
@@ -42,30 +59,46 @@ header a {
 .mainContent {
   padding-top: 69px;
   width: 1200px;
-  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   margin: auto;
 }
 
 /* Mission */
 
-.mission {
+#mission {
   background-image: url(./images/background.jpg);
   height: 700px;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   padding-top: 70px;
 }
 
-.mission .textContent {
+/* Featured Tea */
+
+#featuredTea {
   display: flex;
+  flex-flow: wrap;
+  width: 1000px;
   justify-content: center;
-  align-items: center;
-  background-color: black;
-  flex-direction: column;
-  width: 100%;
+  padding-top: 70px;
 }
 
-.mission h2, .mission h4 {
-  padding: 10px;
+#featuredTea .item img {
+  height: 200px;
+  margin: 10px;
+}
+
+#featuredTea .item {
+  padding: 5px;
+  text-align: center;
+  margin-bottom: 4.66666666px;
+}
+
+#featuredTea .item p {
+  display: block;
+  font-weight: bold;
 }
